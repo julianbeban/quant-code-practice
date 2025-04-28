@@ -13,7 +13,7 @@ for i in range(len(funds)):
     plt.scatter(std_devs[i], returns[i], s=300, color=colors[i], label=funds[i], alpha=1.0, edgecolors='black')
 
 # Labels and title
-plt.title('Risk vs. Return Profile (Updated)', fontsize=16)
+plt.title('Risk vs. Return Profile', fontsize=16)
 plt.xlabel('Standard Deviation (%)', fontsize=14)
 plt.ylabel('YTD Return (%)', fontsize=14)
 

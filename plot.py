@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 funds = ['CSC Portfolio', 'S&P 500 (SPX)', 'VGSTX', 'SWGRX', 'BETFX']
 returns = [-5.83, -6.06, -0.66, 0.37, -0.90]
 std_devs = [17.23, 38.17, 30.64, 19.86, 20.03]
-colors = ['mediumblue', 'darkgrey', 'slategrey', 'lightsteelblue', 'whitesmoke']  # Colors
+colors = ['darkblue', 'darkgrey', 'slategrey', 'lightsteelblue', 'whitesmoke']  # Colors
 
 # Create plot
 plt.figure(figsize=(10, 6))

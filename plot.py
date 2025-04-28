@@ -16,7 +16,6 @@ for i in range(len(funds)):
 plt.title('Risk vs. Return Profile (Updated)', fontsize=16)
 plt.xlabel('Standard Deviation (%)', fontsize=14)
 plt.ylabel('YTD Return (%)', fontsize=14)
-plt.grid(True, linestyle='--', alpha=0.7)
 
 # Customize x and y axis range
 plt.xlim(10, 40)

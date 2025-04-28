@@ -23,6 +23,7 @@ plt.ylim(-10, 5)
 
 # Add legend
 plt.legend(title='Portfolio/Fund')
+plt.legend(markerscale = 0.5) 
 
 # Show plot
 plt.tight_layout()

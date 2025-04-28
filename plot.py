@@ -9,7 +9,7 @@ colors = ['mediumblue', 'darkgrey', 'slategrey', 'lightsteelblue', 'whitesmoke']
 # Create plot
 plt.figure(figsize=(10, 6))
 for i in range(len(funds)):
-    plt.scatter(std_devs[i], returns[i], s=300, color=colors[i], label=funds[i], alpha=0.8, edgecolors='black')
+    plt.scatter(std_devs[i], returns[i], s=300, color=colors[i], label=funds[i], alpha=1.0, edgecolors='black')
 
 # Labels and title
 plt.title('Risk vs. Return Profile (Updated)', fontsize=16)
@@ -18,7 +18,7 @@ plt.ylabel('YTD Return (%)', fontsize=14)
 plt.grid(True, linestyle='--', alpha=0.7)
 
 # Customize x and y axis range
-plt.xlim(15, 40)
+plt.xlim(10, 40)
 plt.ylim(-10, 5)
 
 # Add legend

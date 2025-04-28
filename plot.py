@@ -8,6 +8,7 @@ colors = ['darkblue', 'darkgrey', 'slategrey', 'lightsteelblue', 'whitesmoke']  
 
 # Create plot
 plt.figure(figsize=(10, 6))
+plt.grid(True, linestyle='--', alpha=0.7)
 for i in range(len(funds)):
     plt.scatter(std_devs[i], returns[i], s=300, color=colors[i], label=funds[i], alpha=1.0, edgecolors='black')
 

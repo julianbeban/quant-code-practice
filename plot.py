@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 # Data from the updated table
 funds = ['CSC Portfolio', 'S&P 500 (SPX)', 'VGSTX', 'SWGRX', 'BETFX']
-returns = [-5.83, -6.06, -0.66, 0.37, -0.90]
+returns = [-4.37, -6.06, -0.66, 0.37, -0.90]
 std_devs = [17.23, 38.17, 30.64, 19.86, 20.03]
 colors = ['darkblue', 'darkgrey', 'slategrey', 'lightsteelblue', 'whitesmoke']  # Colors
 
